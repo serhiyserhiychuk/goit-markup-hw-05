@@ -93,7 +93,7 @@
                   cols="30"
                   rows="10"
                   placeholder="text input"
-                >text input</textarea>
+                ></textarea>
               </label>
             </div>
             <input type="checkbox" />
@@ -500,23 +500,24 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="form-container">
           <p class="footer-subtitle">Subscribe</p>
           <form class="footer-form">
-            <div class="form-container">
+            <label>
               <input
                 class="footer-input"
                 type="email"
                 placeholder="E-mail"
-                name="user_email"
+                name="user-email"
+                required
               />
-              <button class="footer-button">
+              <button class="footer-button" type="submit">
                 Subscribe
-                <svg class="button-icon">
+                <svg class="button-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
-            </div>
+            </label>
           </form>
         </div>
       </div>
