@@ -349,7 +349,7 @@ body {
   width: 16px;
   height: 16px;
 }
-.checkbox-input:checked + .checkbox-label > .checkbox-icon > .icon-click {
+.checkbox-input:checked + .checkbox-label > .checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
