@@ -194,7 +194,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -296,8 +296,9 @@ body {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
-.form-input:focus .input-icon {
+.form-input:focus + .input-icon {
   fill: #4d5ae5;
 }
 .thirdly-form-container {
@@ -344,7 +345,11 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked .checkbox-icon {
+.icon-click {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-input:checked + .checkbox-label > .checkbox-icon > .icon-click {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
