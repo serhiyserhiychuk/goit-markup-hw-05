@@ -157,8 +157,8 @@ body {
 }
 .order-button {
   display: block;
-  background-color: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
+  background-color: #4d5ae5;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -176,6 +176,86 @@ body {
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
+}
+.order-form {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background: #fcfcfc;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.form-paragraph {
+  width: 360px;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.send-form-container {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+.close-button {
+  width: 24px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 360px;
+}
+.send-form-ellipse {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.send-form-icon {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+.form-text {
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.form-input {
+  padding-left: 38px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.form-comment {
+  width: 360px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  padding-left: 16px;
+  padding-top: 8px;
+  text-align: start;
 }
 .visually-hidden {
   position: absolute;
@@ -351,6 +431,13 @@ body {
 .first-footer-container {
   margin-right: 120px;
 }
+.second-footer-container {
+  margin-right: 80px;
+}
+.form-container {
+  display: flex;
+  gap: 24px;
+}
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -404,4 +491,34 @@ body {
 }
 .footer-icon {
   fill: #f4f4fd;
+}
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  background-color: #2e2f42;
+}
+.footer-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-icon {
+  width: 24px;
+  height: 24px;
 }
